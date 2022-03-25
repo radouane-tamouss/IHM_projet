@@ -63,7 +63,7 @@
     "kara": {
         "baseURI": "https://www.ubuy.ma",
         "searchSegment" : ["/fr/search/?q="],
-        "parentDOM": "ol.products li.product",
+        "parentDOM": "div.products div.product",
         "extractables" : [
             {
                 "variable": "link",
