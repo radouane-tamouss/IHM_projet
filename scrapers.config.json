@@ -61,13 +61,13 @@
     },
     
     "kara": {
-        "baseURI": "https://www.ubuy.ma",
-        "searchSegment" : ["/fr/search/?q="],
-        "parentDOM": "div.products div.product",
+        "baseURI": "https://menagere.ma",
+        "searchSegment" : ["/jolisearch?s="],
+        "parentDOM": "div.products article.product",
         "extractables" : [
             {
                 "variable": "link",
-                "source": "div.product_image > a.photo",
+                "source": "div.product-image-container > a.product",
                 "attribute": "href"
             },
             {
