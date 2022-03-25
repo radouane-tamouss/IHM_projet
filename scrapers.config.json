@@ -61,8 +61,8 @@
     },
     
     "kara": {
-        "baseURI": "https://www.kara.com.ng",
-        "searchSegment" : ["/catalogsearch/result/?q="],
+        "baseURI": "https://www.ubuy.ma",
+        "searchSegment" : ["/fr/search/?q="],
         "parentDOM": "ol.products li.product",
         "extractables" : [
             {
