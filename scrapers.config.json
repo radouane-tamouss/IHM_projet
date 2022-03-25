@@ -60,33 +60,6 @@
         ]
     },
     
-    "kara": {
-        "baseURI": "https://menagere.ma",
-        "searchSegment" : ["/jolisearch?s="],
-        "parentDOM": "div.products article.product",
-        "extractables" : [
-            {
-                "variable": "link",
-                "source": "div.product-image-container > a.product",
-                "attribute": "href"
-            },
-            {
-                "variable": "img",
-                "source": "div.product_image > a > span.product-image-container > span.product-image-wrapper > img.product-image-photo",
-                "attribute": "src"
-            },
-            {
-                "variable": "name",
-                "source": "div.product.details.product-item-details > h2.product-item-name > a.product-item-link",
-                "attribute": "_text"
-            },
-            {
-                "variable": "price",
-                "source": ".price-wrapper > span.price",
-                "attribute": "_text"
-            }
-        ]
-    },
 
     "slot": {
         "baseURI": "https://slot.ng",
